@@ -15,4 +15,7 @@ class Appointment
     @@all
   end
 
+  def doctor
+    self.doctor
+
 end
