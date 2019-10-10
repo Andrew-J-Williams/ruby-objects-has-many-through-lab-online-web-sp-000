@@ -9,4 +9,6 @@ class Patient
     @@all << self
   end
 
+  
+
 end
