@@ -14,7 +14,7 @@ class Patient
   end
 
   def appointments
-   Appointment.all.select {|apts| apts.self}
+   Appointment.all.select {|apts| apts.patient}
   end
 
   def doctors
