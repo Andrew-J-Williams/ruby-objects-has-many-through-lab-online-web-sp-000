@@ -24,7 +24,7 @@ class Artist
   def genres
     song_list = self.songs
 
-    song_list
+    song_list.map do 
 
   end
 
