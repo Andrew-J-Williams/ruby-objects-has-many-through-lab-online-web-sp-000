@@ -19,4 +19,7 @@ class Genre
 
   def artists
 
+
+  end
+
 end
