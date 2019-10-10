@@ -15,4 +15,6 @@ class Doctor
 
   def appointments
 
+  end
+
 end
