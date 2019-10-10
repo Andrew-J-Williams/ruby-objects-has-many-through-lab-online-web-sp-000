@@ -22,12 +22,7 @@ class Doctor
   end
 
   def patients
-    appointment_list = self.appointments
-
-    x = appointment_list.select {|list| list.doctor == self}
-
-    x.map do |y|
-      y.patient
+    
     end
 
   end
