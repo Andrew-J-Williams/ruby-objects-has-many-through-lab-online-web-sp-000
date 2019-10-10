@@ -19,6 +19,8 @@ class Patient
 
   def appointments
    apts = Appointment.all
+
+   apts.select {|appoint| appoint.patient}
   end
 
   def doctors
