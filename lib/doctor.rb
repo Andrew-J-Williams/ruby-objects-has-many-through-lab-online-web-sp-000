@@ -24,9 +24,7 @@ class Doctor
   def patients
     appointment_list = self.appointments
 
-    appointment_list.map do |appointments|
-      appointments.patient
-    end
+    appointment_list.select {} 
 
   end
 
