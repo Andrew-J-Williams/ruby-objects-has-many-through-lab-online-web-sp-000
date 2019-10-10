@@ -18,5 +18,5 @@ class Genre
   end
 
   
-  
+
 end
