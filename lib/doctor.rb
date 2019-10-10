@@ -23,6 +23,8 @@ class Doctor
 
   def patients
     apts = self.appointments
+
+    apts.map do |
   end
 
 end
