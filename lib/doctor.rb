@@ -26,7 +26,7 @@ class Doctor
 
     x = appointment_list.select {|list| list.doctor == self}
 
-
+    x.map do |y|
 
   end
 
