@@ -18,7 +18,7 @@ class Genre
   end
 
   def artists
-
+    genre_list = 
 
   end
 
