@@ -13,7 +13,7 @@ class Artist
     @@all
   end
 
-  def songs
+  def songs # Calls our 'Song' class and iterates over it to select the songs equal to the instance of the 'Artist' class.
     Song.all.select {|songs| songs.artist == self}
   end
 
