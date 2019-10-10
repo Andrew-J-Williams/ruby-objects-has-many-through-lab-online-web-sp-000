@@ -26,6 +26,7 @@ class Artist
 
     song_list.map do |songs|
       songs.genre
+    end
 
   end
 
