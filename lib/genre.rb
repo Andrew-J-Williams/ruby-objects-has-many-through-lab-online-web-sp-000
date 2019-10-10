@@ -22,6 +22,7 @@ class Genre
 
     genre_list.map do |songs|
       songs.artist
+    end
 
   end
 
