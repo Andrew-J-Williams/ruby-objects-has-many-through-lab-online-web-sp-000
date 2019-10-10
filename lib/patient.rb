@@ -20,7 +20,7 @@ class Patient
   def appointments
    apts = Appointment.all
 
-   apts.select {|appoint| appoint.patient}
+   apts.select {|appoint| appoint.patient == self}
   end
 
   def doctors
