@@ -9,6 +9,7 @@ class Appointment
     @doctor = doctor
     @patient = patient
     @@all << self
+  end
 
 
 end
