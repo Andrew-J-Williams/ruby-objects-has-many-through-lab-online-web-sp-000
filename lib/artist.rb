@@ -22,7 +22,7 @@ class Artist
   end
 
   def genres
-    
+    song_list = self.songs
   end
 
 end
