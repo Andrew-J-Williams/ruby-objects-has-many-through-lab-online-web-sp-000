@@ -14,7 +14,7 @@ class Patient
   end
 
   def appointments
-    Appointment.all.include?
+    Appointment.all.select {|}
   end
 
   def new_appointment(date, doctor)
