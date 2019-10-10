@@ -5,6 +5,7 @@ class Appointment
   @@all = []
 
   def initialize(date, doctor, patient)
+    @
 
 
 end
