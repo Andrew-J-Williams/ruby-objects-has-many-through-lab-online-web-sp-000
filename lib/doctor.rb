@@ -26,6 +26,7 @@ class Doctor
 
     apts.map do |appointment|
       appointment.patient
+    end
   end
 
 end
