@@ -18,7 +18,7 @@ class Patient
   end
 
   def appointments
-   apts = Appointment.all
+   Appointment.all
   end
 
   def doctors
