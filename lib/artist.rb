@@ -9,7 +9,7 @@ class Artist
     @@all << self
   end
 
-  def self.all # Returns the array of artists
+  def self.all # Returns the array of artists.
     @@all
   end
 
