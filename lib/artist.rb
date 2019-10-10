@@ -21,7 +21,7 @@ class Artist
     Song.new(name, self, genre)
   end
 
-  def genres
+  def genres # Iterates over the songs associated with our artist and checks out the genre of each.
     song_list = self.songs
 
     song_list.map do |songs|
