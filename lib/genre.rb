@@ -20,6 +20,9 @@ class Genre
   def artists
     genre_list = self.songs
 
+    genre_list.map do |songs|
+      songs.artist
+
   end
 
 end
