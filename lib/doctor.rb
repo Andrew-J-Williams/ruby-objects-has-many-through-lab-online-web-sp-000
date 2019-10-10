@@ -28,6 +28,7 @@ class Doctor
 
     x.map do |y|
       y.patient
+    end
 
   end
 
