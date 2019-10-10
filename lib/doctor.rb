@@ -24,7 +24,7 @@ class Doctor
   def patients
     appointment_list = self.appointments
 
-    appointment_list.select {} 
+    appointment_list.select {|list| list.doctor == self} 
 
   end
 
