@@ -1,6 +1,6 @@
 class Appointment
 
-
+  
 
 
 end
