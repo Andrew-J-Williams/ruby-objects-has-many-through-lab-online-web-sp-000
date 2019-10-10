@@ -24,6 +24,8 @@ class Doctor
   def patients
     appointment_list = self.appointments
 
+    
+
   end
 
 end
